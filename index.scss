@@ -1,0 +1,45 @@
+body {
+    background: rgb(200, 220, 231);
+    color: black;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 14em 14em 14em 20em;
+}
+
+img {
+    position: absolute;
+    z-index: -2;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    display: inline-block;
+    background: rgba(255,255,255, 0.2);
+    padding: 3em;
+    border-radius: 3em;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(40px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px  rgba(46, 54, 68, 0.03);
+
+    h2 {
+        font-size: 1.7em;
+    }
+    
+    h1, h2 {
+        margin:0;
+    }
+
+    p {
+        margin: 0;
+    }
+     }
+
+h1 {
+    font-size: 4em;
+    clip-path: inset(0 0 0 0);
+}
